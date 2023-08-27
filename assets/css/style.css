@@ -1629,3 +1629,9 @@ section {
 .large-btn {
   font-size:20px;
 }
+
+.circle-image {
+  border-radius: 50%; /* This turns the square into a circle */
+  overflow: hidden; /* This ensures that the image doesn't overflow the circle boundary */
+  object-fit: cover; /* This ensures the image covers the whole circle */
+}
